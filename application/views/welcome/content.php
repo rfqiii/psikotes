@@ -10,7 +10,7 @@
                 <ul class="h5">
                     <li class="m-4">Tes 1 : Tes Deteksi Ciri / Sifat</li>
                     <li class="m-4">Tes 2 : Tes Penalaran</li>
-                    <li class="m-4">Tes 3 : Tes Keceptana Dan Ketepatan Angka</li>
+                    <li class="m-4">Tes 3 : Tes Kecepatan Dan Ketepatan Angka</li>
                     <li class="m-4">Tes 4 : Tes Memori Kerja</li>
                     <li class="m-4">Tes 5 : Tes Orientasi</li>
 
