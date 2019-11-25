@@ -79,7 +79,11 @@ class Login extends CI_Controller {
             ));
 
         if ($this->form_validation->run() == FALSE) {
-            $this->load->view('welcome/header');
+
+            // redirect(base_url('welcome'));
+            
+            $data['judul'] = 'Selamat Datang';
+            $this->load->view('welcome/header', $data);
             $this->load->view('welcome/content');
             $this->load->view('welcome/footer');
         } else {
