@@ -9,9 +9,9 @@ class Psikotes extends CI_Controller {
         // $this->load->model('M_Register');
         $this->load->model('m_soal');
         $this->load->helper('url');
-        // if ($this->session->userdata('status')!='login') {
-        //     redirect(base_url("welcome"));
-        // }
+        if ($this->session->userdata('status')!='login') {
+            redirect(base_url("welcome"));
+        }
     }
 
     public function tes_1()
